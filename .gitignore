@@ -1,0 +1,116 @@
+# React Native / Node specific
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+*.bundle
+*.js.map
+.metro-cache/
+# watchman state is sometimes large and platform specific
+# watchman.state
+
+# Build artifacts
+build/
+dist/
+*.js.map
+
+# Logs
+*.log
+logs/
+coverage/
+*.lcov
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE / Editor specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.DS_Store
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# --- iOS Specific ---
+
+# Xcode build outputs
+ios/build/
+ios/DerivedData/
+
+# Xcode user settings
+ios/*.xcuserdatad/
+ios/*.xcworkspace/contents.xcworkspacedata
+ios/*.xcodeproj/project.xcworkspace/
+ios/*.xcodeproj/xcuserdata/
+
+# CocoaPods dependencies (install using `pod install`)
+ios/Pods/
+
+# Carthage dependencies
+ios/Carthage/
+
+# Fastlane temporary files & outputs
+ios/fastlane/report.xml
+ios/fastlane/Preview.html
+ios/fastlane/screenshots/
+ios/fastlane/test_output/
+
+# Generated Asset Catalog files
+ios/**/Assets.xcassets/*.appiconset/appicon*
+ios/**/Assets.xcassets/*.imageset/*
+
+# iOS Archives and Packages
+*.ipa
+*.apparchive
+*.dSYM/
+*.sym
+
+# Sensitive signing files (NEVER commit these)
+*.p12
+*.key
+*.mobileprovision
+*.provisionprofile
+
+# --- Android Specific (Good practice to include) ---
+
+# Android build outputs
+android/build/
+android/app/build/
+android/.gradle/
+android/gradle/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+android/app/src/main/assets/appcenter-config.json # Example for AppCenter secrets
+android/app/google-services.json # Often contains API keys
+
+# Android Studio files
+android/.idea/
+android/*.iml
+android/captures/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Keystore files (NEVER commit these)
+*.jks
+*.keystore
+
+
